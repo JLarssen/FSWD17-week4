@@ -1,0 +1,38 @@
+.bs-success{
+    color: #198754  !important;
+    /*  text-align: center;
+     font-family: "Archivo", sans-serif; */
+    margin-top: 5%;
+  }
+
+.infobox {
+    display: flex;
+    background-color: #198754;
+    color: white;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    height: fit-content;
+    box-sizing: border-box;
+    border: #eee solid 3px
+  }
+
+.img--container {
+    width: 22em;
+    height: 22em;
+  }
+
+.img0 {
+    display: none;
+    max-width: 80%;
+
+  }
+  
+.img1 {
+    display: none;
+    max-width: 80%;
+  }
+
+ .img2 {
+  display: none;
+  max-width: 80%;
+}
