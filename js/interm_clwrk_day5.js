@@ -48,12 +48,10 @@ class Labour {
 class WhatGoogleWantsToKnow extends Labour {
     income;
 
-    constructor(workingstatus,companyname,companyadr,number_employees) {
+    constructor(workingstatus,companyname,companyadr,number_employees, einkommen) {
         super(workingstatus,companyname,companyadr,number_employees);
-        //getCompanyInfo() = super.getCompanyInfo();
-        this.income = income;
-        
-        this.getCompanyInfo() = super.getCompanyInfo(); 
+        this.income = einkommen;
+        this.getCompanyInfo() = super.getCompanyInfo();     // maybe not necessary
         }
     }
 
@@ -131,13 +129,13 @@ const arr_person =[];
     for (let card of arr_person) {
         document.getElementById("person").innerHTML += card.printPersInfo();
     }
-    let personalData = {
-        surname: "Bats",
-        firstname: "Dingo",
-        birthcity: "Buenos Aires",
-        birthdate: "11.11.2011",
-        citizenships: ["Argentinia","Austria"],
-        getCitizenships: function() {
-            return this.citizenships;
-        }
-    }
+    // let personalData = {
+    //     surname: "Bats",
+    //     firstname: "Dingo",
+    //     birthcity: "Buenos Aires",
+    //     birthdate: "11.11.2011",
+    //     citizenships: ["Argentinia","Austria"],
+    //     getCitizenships: function() {
+    //         return this.citizenships;
+    //     }
+    // }
